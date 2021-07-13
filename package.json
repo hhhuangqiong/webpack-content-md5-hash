@@ -3,12 +3,22 @@
   "version": "1.0.2",
   "description": "",
   "main": "index.js",
+  "homepage": "https://github.com/hhhuangqiong/webpack-content-md5-hash.git",
+  "keywords": [
+    "webpack",
+    "hash",
+    "plugin",
+    "md5"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhhuangqiong/webpack-content-md5-hash.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
   "dependencies": {
     "md5": "^2.3.0"
   }
