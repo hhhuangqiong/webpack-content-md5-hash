@@ -32,6 +32,7 @@ WebpackContentMd5Hash.prototype.apply = function md5HashFunc(compiler) {
         // console.log(newName);
         return newName;
       });
+      
       chunk.files = files;
     });
     return true;
