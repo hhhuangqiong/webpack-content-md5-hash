@@ -19,6 +19,11 @@ Just add this plugin as usual.
 var WebpackContentMd5Hash = require('webpack-content-md5-hash');
 
 module.exports = {
+     output: {
+      // 这里的name就是entry的key
+      // filename: isPub ? '[name].[chunkhash:9].js' : '[name].js',
+      filename: '[name].js',
+    },
     // ...
     plugins: [
         new WebpackContentMd5Hash()
